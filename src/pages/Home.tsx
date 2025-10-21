@@ -4,20 +4,34 @@ export default function Home() {
     return (
         <main className="pt-0 -mt-12 text-center">
         <section className="h-screen flex flex-col justify-center items-center relative">
-          <div className="absolute -top-20 -left-20 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse" />
-          <div className="absolute -bottom-20 -right-20 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute -top-20 -left-20 w-96 h-96 bg-[#0CA095]/20 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute -bottom-20 -right-20 w-96 h-96 bg-[#CAB781]/20 rounded-full blur-3xl animate-pulse" />
           <h1 className="text-6xl md:text-7xl font-extrabold mb-6">
             Pedro Henrique
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 max-w-xl">
-            Game Developer · Playable Ads · Creative Tech
+            Game Developer
           </p>
-          <a
-            href="/portfolio/playables"
-            className="mt-10 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full shadow-lg hover:scale-105 transition-transform"
-          >
-            Playables
-          </a>
+          <div className="flex justify-center space-x-6">
+            <a
+              href="/portfolio/playables"
+              className="mt-10 px-6 py-3 bg-gradient-to-r from-[#0C6B67] to-[#7E7D5E] rounded-full shadow-lg hover:scale-105 transition-transform"
+            >
+              Playables
+            </a>
+            <a
+              href="/portfolio/games"
+              className="mt-10 px-6 py-3 bg-gradient-to-r from-[#0C6B67] to-[#7E7D5E] rounded-full shadow-lg hover:scale-105 transition-transform"
+            >
+              Games
+            </a>
+            <a
+              href="/study"
+              className="mt-10 px-6 py-3 bg-gradient-to-r from-[#0C6B67] to-[#7E7D5E] rounded-full shadow-lg hover:scale-105 transition-transform"
+            >
+              Study
+            </a>
+          </div>
         </section>
 
     {/* About */}
@@ -41,15 +55,15 @@ export default function Home() {
     {/* Contact */}
     <section id="contact" className="max-w-6xl mx-auto px-6 pb-24">
   <div className="flex justify-center space-x-6">
-    <a href="mailto:pedrohfcarneiro1@gmail.com" className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hover:scale-105 transition-transform">
+    <a href="mailto:pedrohfcarneiro1@gmail.com" className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-[#0C6B67] to-[#7E7D5E] text-white rounded-full shadow-lg hover:scale-105 transition-transform">
       <img src={`${base}social%20icons/email.svg`} alt="Email" className="w-5 h-5" />
       <span>Email</span>
     </a>
-    <a href="https://www.linkedin.com/in/pedrohfcarneiro/" target="_blank" rel="noreferrer" className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hover:scale-105 transition-transform">
+    <a href="https://www.linkedin.com/in/pedrohfcarneiro/" target="_blank" rel="noreferrer" className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-[#0C6B67] to-[#7E7D5E] text-white rounded-full shadow-lg hover:scale-105 transition-transform">
       <img src={`${base}social%20icons/linkedin.svg`} alt="LinkedIn" className="w-5 h-5" />
       <span>LinkedIn</span>
     </a>
-    <a href="https://github.com/pedrohfcarneiro" target="_blank" rel="noreferrer" className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hover:scale-105 transition-transform">
+    <a href="https://github.com/pedrohfcarneiro" target="_blank" rel="noreferrer" className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-[#0C6B67] to-[#7E7D5E] text-white rounded-full shadow-lg hover:scale-105 transition-transform">
       <img src={`${base}social%20icons/github.svg`} alt="GitHub" className="w-5 h-5" />
       <span>GitHub</span>
     </a>

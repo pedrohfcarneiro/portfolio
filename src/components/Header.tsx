@@ -7,6 +7,7 @@ export default function Header() {
     { path: "/", label: "Home" },
     { path: "/portfolio/playables", label: "Playables" },
     { path: "/portfolio/games", label: "Games" },
+    { path: "/study", label: "Study" },
     { path: "/blog", label: "Blog" },
   ];
 
@@ -21,8 +22,8 @@ export default function Header() {
             <li key={link.path}>
               <Link
                 to={link.path}
-                className={`hover:text-indigo-400 ${
-                  pathname === link.path ? "text-indigo-400 font-semibold" : ""
+                className={`hover:text-[#58BBA4] ${
+                  pathname === link.path ? "text-[#58BBA4] font-semibold" : ""
                 }`}
               >
                 {link.label}
@@ -34,3 +35,4 @@ export default function Header() {
     </header>
   );
 }
+

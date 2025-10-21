@@ -7,11 +7,13 @@ import type { PlayableProjectInterface } from "../data/playables";
 
 export default function Playables() {
 const [selected, setSelected] = useState<PlayableProjectInterface | null>(null);
-const base = import.meta.env.BASE_URL;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       <SectionTitle title="Playable Ads" />
+      <div className="text-gray-300 text-sm mb-12 text-center max-w-2xl mx-auto leading-relaxed font-bold"> 
+        Even though i've already done more than 150 playable ads working at Wildlife Studios, i selected a few to showcase here.
+        </div>
       <div className="grid md:grid-cols-3 gap-6">
         {playables.map((p) => (
           <PlayableProjectCard
