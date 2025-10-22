@@ -20,7 +20,7 @@ Here's the video i mentioned at the beginning, the dev is amazing and is buildin
 
 ## Showcase Build
 
-<iframe src="/portfolio/studyProjectsAssets/ParticleSystem/showcase_build.html" width="100%" height="600px" frameborder="0" allowfullscreen></iframe>  <br>
+<iframe src="/studyProjectsAssets/ParticleSystem/showcase_build.html" width="100%" height="600px" frameborder="0" allowfullscreen></iframe>  <br>
 <br>
 
 This project overview is under construction, soon i'll update with more details of the development process.
